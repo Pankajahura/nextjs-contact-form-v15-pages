@@ -23,7 +23,7 @@ export default async function handler(
           console.log('Fetching contacts from database...');
           const contacts = await Contact.find({}).sort({ createdAt: -1 });
           console.log('Fetched contacts from database:', contacts.length);
-
+          console.log("autodeploy web-hook test")
           return res.status(200).json({
             success: true,
             data: contacts,
