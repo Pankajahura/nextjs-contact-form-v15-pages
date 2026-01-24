@@ -15,7 +15,7 @@ export default function ContactsPage() {
   const fetchContacts = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch('/api/contacts');
+      const response = await fetch('/api/contacts')
       const result = await response.json();
 
       if (result.success) {
