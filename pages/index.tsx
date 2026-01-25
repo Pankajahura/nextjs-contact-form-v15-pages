@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-white">
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">
-            Contact Form Data
+            Contact Form 
           </h1>
           <p className="text-gray-600 text-center mb-6">
             Send us a message or manage your contacts
