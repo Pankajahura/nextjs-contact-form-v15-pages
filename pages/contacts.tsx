@@ -79,7 +79,7 @@ export default function ContactsPage() {
         method: 'DELETE',
       });
 
-      const result = await response.json();
+      const result = await response.json()
 
       if (result.success) {
         await fetchContacts();
