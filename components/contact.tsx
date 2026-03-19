@@ -11,7 +11,7 @@ export type FormData = {
 };
 
 const Contact: FC = () => {
-  const { register, handleSubmit, reset } = useForm<FormData>();
+  const { register, handleSubmit, reset } = useForm<FormData>()
 
   function onSubmit(data: FormData) {
     sendEmail(data);
@@ -25,7 +25,7 @@ const Contact: FC = () => {
           htmlFor="name"
           className="mb-3 block text-base font-medium text-black"
         >
-          Full Name
+          Full Name is 
         </label>
         <input
           type="text"
